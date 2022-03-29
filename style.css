@@ -1,0 +1,167 @@
+* {
+	font-family: Times New Roman;
+    color: darkblue;
+}
+
+#conteudo {
+    padding-top: 40px;
+    background: #fff;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.fita img {
+    position: absolute;
+    opacity: 80%;
+    top: 35px;
+    left: 48%;
+    transform: rotate(-1.5deg);
+    z-index: 1;
+    border: none;
+}
+
+.logo img {
+    width: 100px;
+    transform: rotate(3deg);
+}
+
+h1 {
+    margin: 0px 10px 0px 0px;
+    font-size: 42px;
+    float: right;
+}
+
+span {
+    font-size: 60px;
+}
+
+.bloco {
+    margin: 0px auto;
+    width: 100%;
+    background-size: cover;
+}
+
+.bloco1 {
+    padding: 5% 3% 5% 3%;
+    text-align: center;
+    margin-top: 8%;
+    background: rgb(0, 165, 255);
+    border-radius: 15px;
+    font-size: 26px;
+    box-shadow: 0px 0px 15px rgba(4, 52, 92, 0.5);
+}
+
+.bloco2 {
+    width: 500px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 10px;
+    background: rgb(0, 165, 255);
+    border-radius: 15px;
+    font-size: 26px;
+    box-shadow: 0px 0px 15px rgba(4, 52, 92, 0.5);
+}
+
+.text {
+    padding: 0% 3% 0% 3%;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 8%;
+    font-size: 26px;
+}
+
+.text1 {
+    padding: 0% 3% 0% 3%;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 8%;
+    font-size: 26px;
+}
+
+.txt1 {
+    width: 100%;
+}
+
+img {
+    border: 1px dashed darkblue;
+    border-radius: 15px;
+}
+
+.img {
+    border: none;
+}
+
+.img1 {
+    margin: 0px auto;
+    border-radius: 15px;
+}
+
+.card {
+    margin-top: 15px;
+    margin: 0px auto;
+    width: 500px;
+    text-align: left;
+    padding: 5px 0px 5px 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(4, 52, 92);
+    box-shadow: 0px 0px 5px rgba(4, 52, 92, 0.5);
+}
+
+hr {
+    border: none;
+}
+
+ul {
+    list-style-image: url("img/branner2.png");
+}
+
+.title {
+    float: left;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: -5px;
+    margin-left: -5px;
+    background: rgb(4, 52, 92);
+    color:white;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.title1 {
+    width: 100%;
+    font-size: 36px;
+    background: rgb(4, 52, 92);
+    color:white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.preco {
+    float: right;
+    padding-left: 3px;
+    padding-right: 3px;
+    background: rgb(4, 52, 92);
+    color:white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.logo {
+    width: 520px;
+    margin: 0px auto;
+    padding: 15px;
+    background: rgb(0, 165, 255);
+    transform: rotate(3deg);
+    border: 2px rgb(4, 52, 92) dotted;
+    box-shadow: 0px 5px 5px rgba(4, 52, 92, 0.5);
+}
+
+@media (max-width: 800px) {
+    .card {
+        width: 100%;
+    }
+
+    .bloco2 {
+        width: 100%;
+    }
+}
