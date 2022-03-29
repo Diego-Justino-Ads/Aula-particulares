@@ -52,7 +52,7 @@ span {
 }
 
 .bloco2 {
-    width: 500px;
+    width: 100%;
     text-align: center;
     margin: 0px auto;
     margin-top: 10px;
@@ -93,13 +93,17 @@ img {
 
 .img1 {
     margin: 0px auto;
+    width: 400px;
+    height: 400px;
+    background: url("img/1.png");
+    background-size: cover;
     border-radius: 15px;
 }
 
 .card {
     margin-top: 15px;
     margin: 0px auto;
-    width: 500px;
+    width: 100%;
     text-align: left;
     padding: 5px 0px 5px 5px;
     border-radius: 5px;
@@ -154,14 +158,4 @@ ul {
     transform: rotate(3deg);
     border: 2px rgb(4, 52, 92) dotted;
     box-shadow: 0px 5px 5px rgba(4, 52, 92, 0.5);
-}
-
-@media (max-width: 800px) {
-    .card {
-        width: 100%;
-    }
-
-    .bloco2 {
-        width: 100%;
-    }
 }
